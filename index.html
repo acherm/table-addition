@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Exercises for Kids</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ... (other code remains the same) -->
+
+<body>
+
+  <div id="selection-area">
+    <p>Choisissez les tables d'addition sur lesquelles vous voulez vous entraîner !</p>
+    <div id="number-checkboxes">
+      <!-- Number selection checkboxes will be generated here -->
+    </div>
+
+    <button id="start">Commencer les exercices! 🚀</button>
+  </div>
+
+  <div id="exercise-area" style="display:none;">
+    <div id="timer" style="background-color: lightblue; border: 1px solid gray; text-align: center;">
+      <span id="timer-value">0</span> seconds
+    </div>
+    <form id="exercises-form">
+      <!-- Exercises will be generated here -->
+    </form>
+    <button id="submit">CORRIGER</button>
+  </div>
+
+  <button id="restart" style="display:none;">RECOMMENCER</button>
+
+  <div id="results-area" style="display:none;">
+    <!-- Results will be displayed here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

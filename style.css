@@ -1,0 +1,77 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+#timer {
+  margin: 0 auto;
+  width: 100px;
+  /* or any other fixed width */
+}
+
+#submit {
+  margin: 0 auto;
+  width: 100px;
+  /* or any other fixed width */
+}
+
+
+
+#exercice-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* or a specific height */
+}
+
+
+select {
+  margin-right: 10px;
+}
+
+/* style.css */
+.correct-answer {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: red;
+  font-weight: bold;
+}
+
+#number-checkboxes div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* ... (other code remains the same) */
+
+.unanswered {
+  color: red;
+  font-weight: bold;
+}
+
+#exercise-area {
+  flex-direction: column;
+}
+
+#exercises-form {
+  margin-bottom: 20px;
+}
